@@ -9,5 +9,5 @@ class Robo():
         print(nome)
 
 if __name__ == "__main__":
-    Robo.chama_nome_robo("vm-01")
+    Robo.chama_nome_robo("teste")
     
