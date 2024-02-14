@@ -1,6 +1,7 @@
 # Web Crawler Python 🐍
 
 Este é um simples web crawler desenvolvido em Python para extrair informações de páginas web.
+> Sendo elas Listagem de produtos e preços de grandes sites, como OLX, Mercado Livre e Americanas.
 
 ## Instalação
 
