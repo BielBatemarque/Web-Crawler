@@ -1,4 +1,6 @@
+from utils.logger import Logger
 import sys
+
 
 class Robo():
 
@@ -6,7 +8,7 @@ class Robo():
         pass
 
     def chama_nome_robo(nome: str):
-        print(nome)
+        Logger.debug(nome)
 
 if __name__ == "__main__":
     Robo.chama_nome_robo("vm-01")
