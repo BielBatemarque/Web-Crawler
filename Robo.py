@@ -1,6 +1,5 @@
 from utils.logger import Logger
 from utils.config import Config
-import sys
 
 
 class Robo():
