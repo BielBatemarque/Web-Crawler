@@ -1,3 +1,5 @@
+from models.resposta import Resposta
+from abc import ABC, abstractclassmethod
 from .Loja import Loja
 import requests
 
@@ -29,5 +31,6 @@ class Buscador():
             **Kwargs
         )
 
-    def buscar():
+    @abstractclassmethod
+    def buscar() -> Resposta:
         pass
