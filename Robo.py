@@ -2,7 +2,7 @@ from utils.logger import Logger
 from utils.config import Config
 
 
-class Robo():
+class Robo:
 
     def __init__(self) -> None:
         pass
