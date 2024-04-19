@@ -5,4 +5,7 @@ class Olx(Loja):
 
     def __init__(self) -> None:
         pass
+
+    def buscar():
+        pass
         
