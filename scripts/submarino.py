@@ -4,3 +4,6 @@ class Submarino(Loja):
     
     def __init__(self, nome, url) -> None:
         super().__init__(nome, url)
+
+    def buscar():
+        pass
