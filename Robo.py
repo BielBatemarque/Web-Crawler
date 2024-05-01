@@ -15,6 +15,7 @@ class Robo:
 
     todos_scripts = TodosScripts.scripts
     print(todos_scripts)
+    site = todos_scripts[1]
 
     for loja in todos_scripts:
         print(loja)
@@ -23,5 +24,6 @@ class Robo:
     
 
 if __name__ == "__main__":
+
     Robo.chama_nome_robo("vm-01")
     
